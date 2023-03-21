@@ -1,0 +1,102 @@
+<html>
+
+<head>
+  <title>K-Ville</title>
+
+  <script src="k-ville_2.js"></script>
+  <link rel="stylesheet" href="k-ville_2.css">
+  
+
+</head>
+
+  
+<button id="about-the-game" onclick="alert('Inspired by Wordle, Weddle, & Poetl. Game spans the entire career of Coach K: 1980 to 2022 ... and to present day. Shoutout to Jackson Hubbard for his invaluable coding assistance!')">?</button>
+
+<body>
+
+  <h1> Duke Men's Basketball Player Guessing Game </h1>
+
+    <select id="player-list">
+      
+    </select>
+  
+  <button id="guess-button">Guess</button>
+  
+  <table>
+    <tr>
+      <th>Player</th>
+      <th>Decade</th>
+      <th>First Year</th>
+      <th># of Years</th>
+      <th>Position</th>
+      <th>Height</th>
+      <th>Number</th>
+    </tr>
+    <tr id="guess-row-1">
+      <td class="player-1"></td>
+      <td class="decade-1"></td>
+      <td class="first-year-1"></td>
+      <td class="num-years-1"></td>
+      <td class="position-1"></td>
+      <td class="height-1"></td>
+      <td class="number-1"></td>
+    </tr>
+    <tr id="guess-row-2">
+      <td class="player-2"></td>
+      <td class="decade-2"></td>
+      <td class="first-year-2"></td>
+      <td class="num-years-2"></td>
+      <td class="position-2"></td>
+      <td class="height-2"></td>
+      <td class="number-2"></td>
+    </tr>
+    <tr id="guess-row-3">
+      <td class="player-3"></td>
+      <td class="decade-3"></td>
+      <td class="first-year-3"></td>
+      <td class="num-years-3"></td>
+      <td class="position-3"></td>
+      <td class="height-3"></td>
+      <td class="number-3"></td>
+    </tr>
+    <tr id="guess-row-4">
+      <td class="player-4"></td>
+      <td class="decade-4"></td>
+      <td class="first-year-4"></td>
+      <td class="num-years-4"></td>
+      <td class="position-4"></td>
+      <td class="height-4"></td>
+      <td class="number-4"></td>
+    </tr>
+    <tr id="guess-row-5">
+      <td class="player-5"></td>
+      <td class="decade-5"></td>
+      <td class="first-year-5"></td>
+      <td class="num-years-5"></td>
+      <td class="position-5"></td>
+      <td class="height-5"></td>
+      <td class="number-5"></td>
+    </tr>
+    <tr id="guess-row-6">
+      <td class="player-6"></td>
+      <td class="decade-6"></td>
+      <td class="first-year-6"></td>
+      <td class="num-years-6"></td>
+      <td class="position-6"></td>
+      <td class="height-6"></td>
+      <td class="number-6"></td>
+    </tr>
+  </table>
+  
+
+  </body>
+  
+  <h2>Secret Player:</h2>
+<div id="secret-player-name"></div>
+  
+ <button id="reset-button">Reset</button>
+  
+  <button id="how-to-play" onclick="alert('Select a player from the Dropdown Menu and click the Guess Button to confirm your choice. Green = Correct, Yellow = within two units, except within one decade. Blue = Correct Name. Reset Button restarts the game with a New Secret Player.')">How to Play</button>
+
+  
+  </html>
